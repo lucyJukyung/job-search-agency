@@ -1,0 +1,51 @@
+[client]
+toolbarMode = "minimal"
+
+# Matched to an Obsidian theme: a cool grey-lavender canvas, a slightly darker
+# file-tree column, and the dark rose it uses for headings and links. One sans in three
+# roles, mono for anything countable — days waiting, tokens, cost.
+[theme]
+base = "light"
+font = "ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+headingFont = "ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+codeFont = "ui-monospace, SFMono-Regular, 'SF Mono', Menlo, monospace"
+baseFontSize = 15
+
+backgroundColor = "#D9D9DE"
+secondaryBackgroundColor = "#E6E6EA"
+textColor = "#33333A"
+primaryColor = "#8E3039"
+linkColor = "#8E3039"
+borderColor = "#BFBFC6"
+dataframeBorderColor = "#BFBFC6"
+dataframeHeaderBackgroundColor = "#E0E0E5"
+codeBackgroundColor = "#E6E6EA"
+codeTextColor = "#8E3039"
+
+baseRadius = "0.375rem"
+buttonRadius = "0.375rem"
+showWidgetBorder = true
+showSidebarBorder = true
+
+metricValueFontSize = "2rem"
+metricValueFontWeight = 600
+
+grayBackgroundColor = "#DCDCE1"
+grayTextColor = "#5E5E68"
+violetBackgroundColor = "#E2DCE9"
+violetTextColor = "#553C6B"
+blueBackgroundColor = "#DAE2EC"
+blueTextColor = "#2C4560"
+greenBackgroundColor = "#DCE7DC"
+greenTextColor = "#2C4A33"
+yellowBackgroundColor = "#EDE3CE"
+yellowTextColor = "#6B5322"
+redBackgroundColor = "#EBD8DA"
+redTextColor = "#8E3039"
+
+chartCategoricalColors = ["#8E3039", "#5E7A8E", "#8A7B4E", "#4F7355", "#6B5B87", "#6E6E78"]
+
+[theme.sidebar]
+backgroundColor = "#CDCDD3"
+secondaryBackgroundColor = "#DCDCE1"
+borderColor = "#BFBFC6"

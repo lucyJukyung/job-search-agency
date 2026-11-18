@@ -1,0 +1,12 @@
+# personal data — never commit
+agency/*.db
+agency/*.db.bak*
+master-resume.md
+drafts/
+*.pdf
+.streamlit/secrets.toml
+.claude/settings.local.json
+
+__pycache__/
+.DS_Store
+.venv/
