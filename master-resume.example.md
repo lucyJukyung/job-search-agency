@@ -2,6 +2,13 @@
 
 Data Analyst · Melbourne, VIC · Full working rights
 
+## Career goal
+
+<!-- Not sent to employers. The fit agent scores each role against this. -->
+Move into analytics engineering within two years: own pipelines and data models, not just
+the reports on top of them. Next role should add dbt, a cloud warehouse, and a team that
+works in Git with code review.
+
 ## Summary
 
 Data analyst with four years of experience building SQL models and Power BI reporting for

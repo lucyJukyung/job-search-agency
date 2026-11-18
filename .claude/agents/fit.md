@@ -36,9 +36,17 @@ that is the tailor agent's job, and it only runs if the candidate decides to pur
    - **Verdict** — apply / apply with caveats / skip, in one line
    - **Company** — what they do and their reputation (use WebSearch for this section only)
    - **Match** — a percentage, with one line on how you got there
-   - **Recruiter's first impression** — how the resume reads against this JD in 30 seconds
+   - **Recruiter's first impression** — how someone reading this resume for this role would
+     see it, honestly: include what would make them hesitate, not only the good points
    - **Strengths** — real resume points that line up with the JD
    - **Gaps** — what the JD asks for that the resume doesn't show
+   - **Growth toward the career goal** — high / medium / low, scored against the "Career
+     goal" section of the master resume. Meeting today's requirements is not enough: say
+     whether the role is a stepping stone or a title trap. Check whether it includes
+     hands-on pipeline or modelling work (pure reporting is a trap), whether it exposes the
+     candidate to the tools the goal needs, and whether the team works with engineering
+     practices (Git, code review, CI/CD) or leaves them working alone. A strong match with
+     low growth should say so plainly.
    - **Side project ideas** — one or two small projects that would close the biggest gap
 
 3. Store the diagnosis, piping the markdown in on stdin:

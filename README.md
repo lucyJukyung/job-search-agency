@@ -30,13 +30,28 @@ the system, like actually applying.
 | Agent  | Does                                                                         | Never does                    |
 |--------|------------------------------------------------------------------------------|-------------------------------|
 | Scout  | Searches SEEK, drops senior / part-time / short-contract roles, adds the rest | Applies, fills forms           |
-| Fit    | Scores the posting against the master resume, lists strengths and gaps        | Decides to pursue the role     |
+| Fit    | Scores the match, gives the recruiter's-eye view, and rates whether the role grows you toward your career goal | Decides to pursue the role     |
 | Tailor | Writes a tailored resume (and cover letter) into `drafts/`                    | Submits anything               |
 | Screen | Drafts a 150-word answer to an application-form question                      | Invents experience             |
 
 Status moves `found → tailoring → awaiting_approval → applied → screening → interview →
 offer / rejected`. The two decisions, *pursue this role* and *I applied*, are buttons the
 human clicks. No agent can make them.
+
+### What the fit check looks at
+
+A match score alone answers "could I get this job?". The fit agent also answers "should I
+want it?", so every diagnosis has:
+
+- **Verdict** and **match %**, with the reasoning behind the number
+- **Recruiter's first impression**: how the resume reads to someone screening for this
+  role, including what would make them hesitate
+- **Strengths** and **gaps** against the JD, taken only from the real master resume
+- **Growth toward the career goal**: scored against the goal written in the master resume.
+  It checks whether the role has hands-on modelling work or is pure reporting, whether it
+  brings the tools the goal needs, and whether the team works in Git with code review.
+  A role you'd get easily but that leads nowhere gets flagged as a title trap.
+- **Side project ideas** to close the biggest gap
 
 ## Pages
 

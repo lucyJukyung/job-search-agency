@@ -16,9 +16,17 @@ JD = ("We're looking for a data professional to build and maintain our reporting
       "operations to define metrics. Experience with dbt, Python, or a cloud warehouse "
       "is a plus. Full-time, hybrid, 3 days in the office.")
 
-FIT = """**Verdict** — apply
+FIT = """**Verdict** — apply. A good stepping stone toward analytics engineering.
+
+**Company** — Mid-sized operator with an in-house data team of about eight; reviews mention
+steady workloads and decent hybrid flexibility.
 
 **Match** — {score}%. SQL and Power BI line up directly; dbt is the main gap.
+
+**Recruiter's first impression**
+Reads as a solid reporting analyst who already owns the model behind the dashboards, not
+just the visuals. The likely hesitation is dbt: the JD lists it as a plus, and the resume
+doesn't show it anywhere.
 
 **Strengths**
 - Built the month-end reporting model in SQL and Power BI end to end
@@ -27,6 +35,11 @@ FIT = """**Verdict** — apply
 **Gaps**
 - No production dbt experience
 - Cloud warehouse exposure is limited to one migration project
+
+**Growth toward the career goal (analytics engineer)** — high
+- The role owns the reporting layer, so modelling is real day-to-day work, not just visuals
+- The team is moving to dbt and a cloud warehouse, which is exactly the missing experience
+- Code review and Git are mentioned; this is an engineering-minded team, not a solo seat
 
 **Side project ideas**
 - Rebuild one existing report as a small dbt project on DuckDB
