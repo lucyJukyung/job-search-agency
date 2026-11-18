@@ -171,7 +171,7 @@ def fetch_jd(url, timeout=25):
 
     if any(h in url for h in BLOCKED_HOSTS):
         raise ValueError("LinkedIn and SEEK block automated reads. Paste the description in instead.")
-    # A bare "Mozilla/5.0" reads as a bot to some sites (Canva 403s on it) — a full
+    # A bare "Mozilla/5.0" reads as a bot to some career sites (they 403 on it) — a full
     # browser UA string passes the same check a real visitor would.
     ua = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
           "(KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36")

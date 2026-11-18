@@ -156,9 +156,9 @@ def company_history(company, exclude=()):
 
 CLI = "Bash(python3 agency/agency.py:*)"
 SCOUT_TOOLS = ["Read", CLI, "Bash(python3 agency/seek.py:*)"]
-FIT_TOOLS = ["Read", CLI]
-TAILOR_TOOLS = ["Read", "Write", "Edit", "Glob", CLI]
-SCREEN_TOOLS = ["Read", CLI]
+FIT_TOOLS = ["Read", "Skill", CLI]
+TAILOR_TOOLS = ["Read", "Write", "Edit", "Glob", "Skill", CLI]
+SCREEN_TOOLS = ["Read", "Skill", CLI]
 
 
 def _execute_agent(prompt, agent, tools, app_id, run_id):
@@ -849,7 +849,7 @@ elif page == "Master resume":
 
     note(
         "This is the file every tailored resume is built from. The fit and tailoring "
-        "agents read it directly, so editing it here changes "
+        "agents read it, so editing it here changes "
         "what they produce."
     )
     text = MASTER_RESUME.read_text()
